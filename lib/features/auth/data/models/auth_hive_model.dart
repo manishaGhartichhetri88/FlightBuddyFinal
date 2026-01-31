@@ -1,7 +1,6 @@
 import 'package:hive/hive.dart';
 import 'package:flightbuddy/core/constants/hive_table_constant.dart';
 import 'package:flightbuddy/features/auth/domain/entities/auth_entity.dart';
-import 'package:uuid/uuid.dart';
 
 part 'auth_hive_model.g.dart';
 

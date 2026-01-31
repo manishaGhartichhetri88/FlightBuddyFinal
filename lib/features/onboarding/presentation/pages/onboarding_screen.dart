@@ -25,7 +25,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
     {
       "image": "assets/images/onboarding3.jpg",
       "title": "Start Your Journey",
-      "subtitle": "Write anything, anytime — without pressure."
+      "subtitle": "Fly anywhere, anytime — without pressure."
     },
   ];
 

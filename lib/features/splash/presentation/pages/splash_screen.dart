@@ -49,7 +49,7 @@ class SplashScreen extends StatelessWidget {
                 ),
                 child: const Text(
                   'REGISTER',
-                  style: TextStyle(color: Colors.white),
+                  style: TextStyle(color: Colors.black),
                 ),
               ),
               const SizedBox(height: 12),

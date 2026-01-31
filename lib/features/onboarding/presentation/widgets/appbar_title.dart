@@ -26,7 +26,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
             height: 40,
             width: 40,
             child: Image.asset(
-              'assets/images/pencil.png',
+              'assets/images/plane_logo.png',
               fit: BoxFit.contain,
             ),
           ),
@@ -35,7 +35,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
 
           // App name
           const Text(
-            'Not A Writing App',
+            'Flight Buddy',
             style: TextStyle(
               color: AppColors.textPrimary,
               fontWeight: FontWeight.bold,

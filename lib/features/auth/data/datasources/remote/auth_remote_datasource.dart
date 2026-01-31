@@ -1,4 +1,3 @@
-import 'package:dio/dio.dart';
 import 'package:flightbuddy/core/api/api_client.dart';
 import 'package:flightbuddy/core/api/api_endpoints.dart';
 import 'package:flightbuddy/core/services/storage/user_session_service.dart';
