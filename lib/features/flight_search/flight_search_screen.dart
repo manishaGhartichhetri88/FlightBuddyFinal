@@ -6,7 +6,7 @@ class FlightSearchScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Search Flights')),
+    appBar: AppBar(title: const Text('Search Flights')),
       body: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
