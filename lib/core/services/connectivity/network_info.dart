@@ -1,5 +1,3 @@
-import 'dart:io';
-
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -22,16 +20,6 @@ class NetworkInfo implements INetworkInfo {
     if (result.contains(ConnectivityResult.none)) {
       return false;
     }
-    // return await _sacchaiKaiInternetChaKiNai();
     return true;
-  }
-
-  Future<bool> _sacchaiKaiInternetChaKiNai() async {
-    try {
-      final result = await InternetAddress.lookup('google.com');
-      return result.isNotEmpty && result[0].rawAddress.isNotEmpty;
-    } on SocketException catch (_) {
-      return false;
-    }
   }
 }
