@@ -9,8 +9,8 @@ class SearchResultScreen extends StatelessWidget {
       appBar: AppBar(title: const Text("Flight Results")),
       body: ListView(
         children: const [
-          ListTile(title: Text("IndiGo - ₹13,500")),
-          ListTile(title: Text("Vistara - ₹15,000")),
+          ListTile(title: Text("IndiGo - rs13,500")),
+          ListTile(title: Text("Vistara - rs15,000")),
         ],
       ),
     );
