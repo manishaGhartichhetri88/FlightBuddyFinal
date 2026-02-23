@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flightbuddy/core/models/flight_model.dart';
 
 class FlightSearchResultsScreen extends StatefulWidget {
